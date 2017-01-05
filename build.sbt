@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer :="wibble@wibble.com"
+packageSummary :="unbridled awesomeness"
+packageDescription :="a package"
